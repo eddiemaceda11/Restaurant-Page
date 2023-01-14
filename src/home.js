@@ -57,8 +57,8 @@ const homePageContent = () => {
   h4.textContent = "Tenemos Pan, Cafe, Elados, y mucho mas!";
   const mainButton = document.createElement("button");
   mainButton.classList.add("main-button");
-  mainButton.textContent = " Ver El Menu";
-  mainButton.textContent = " Ver El Menu";
+  mainButton.textContent = "Ver El Menu";
+  mainButton.textContent = "Ver El Menu";
 
   mainInner.appendChild(mainBorderLine);
   mainInner.appendChild(h4);
