@@ -64,4 +64,18 @@ document.addEventListener("click", (e) => {
     contentAbout.classList.remove("hidden");
     aboutPageContent();
   }
+
+  // If user selects the "Ver el
+  // Menu" btn, display Menu page
+  if (e.target.textContent === "Ver El Menu") {
+    contentHome.innerHTML = "";
+    contentMenu.innerHTML = "";
+    contentAbout.innerHTML = "";
+    contentHome.classList.add("hidden");
+
+    contentAbout.classList.add("hidden");
+
+    contentMenu.classList.remove("hidden");
+    menuPageContent();
+  }
 });
