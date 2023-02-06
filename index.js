@@ -58,7 +58,7 @@ document.addEventListener("click", (e) => {
 
   // If user selects the "Ver el
   // Menu" btn, display Menu page
-  if (e.target.textContent === "Ver El Menu") {
+  if (e.target.textContent === "View Menu") {
     contentHome.innerHTML = "";
     contentMenu.innerHTML = "";
     contentAbout.innerHTML = "";
