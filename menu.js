@@ -39,7 +39,7 @@ const menuPageContent = () => {
 
   const welcomeText = document.createElement("p");
   welcomeText.classList.add("welcome");
-  welcomeText.textContent = "Bienvenidos";
+  welcomeText.textContent = "Welcome";
 
   const welcomeMenuText = document.createElement("p");
   welcomeMenuText.classList.add("welcome-menu");
@@ -57,15 +57,14 @@ const menuPageContent = () => {
   //
   const itemName1 = document.createElement("li");
   itemName1.classList.add("menu-li");
-  itemName1.textContent = " Pastel de Cerezas";
+  itemName1.textContent = "Cherry Lover's Cake";
   //
   const img1 = document.createElement("img");
   img1.classList.add("img-1");
   //
   const itemDesc1 = document.createElement("p");
   itemDesc1.classList.add("menu-p");
-  itemDesc1.textContent = `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  Pellentesque placerat, tellus sit amet`;
+  itemDesc1.textContent = `Our signature cake, made with fresh cherries, ice cream frosting, and a smooth buttery crust.`;
   const itemPrice1 = document.createElement("menu-price");
   itemPrice1.classList.add("menu-price");
   itemPrice1.textContent = "$20";
@@ -79,15 +78,14 @@ const menuPageContent = () => {
   //
   const itemName2 = document.createElement("li");
   itemName2.classList.add("menu-li");
-  itemName2.textContent = " Pastel de Bayas";
+  itemName2.textContent = "Sweet Blueberry Pie";
   //
   const img2 = document.createElement("img");
   img2.classList.add("img-2");
   //
   const itemDesc2 = document.createElement("p");
   itemDesc2.classList.add("menu-p");
-  itemDesc2.textContent = `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  Pellentesque placerat, tellus sit amet`;
+  itemDesc2.textContent = `Sweet, warm, homemade blueberry pie, with a watm cream filling and your choice of ice cream side.`;
   const itemPrice2 = document.createElement("menu-price");
   itemPrice2.classList.add("menu-price");
   itemPrice2.textContent = "$20";
@@ -108,8 +106,7 @@ const menuPageContent = () => {
   //
   const itemDesc3 = document.createElement("p");
   itemDesc3.classList.add("menu-p");
-  itemDesc3.textContent = `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  Pellentesque placerat, tellus sit amet`;
+  itemDesc3.textContent = `A latin inspired classic, this dish includes freshly fried churros, melted chocolate, and fresh strawberries.`;
   const itemPrice3 = document.createElement("menu-price");
   itemPrice3.classList.add("menu-price");
   itemPrice3.textContent = "$16";
@@ -123,15 +120,14 @@ const menuPageContent = () => {
   //
   const itemName4 = document.createElement("li");
   itemName4.classList.add("menu-li");
-  itemName4.textContent = " Pastel de Chocolate";
+  itemName4.textContent = "Chocolate Angel Drop";
   //
   const img4 = document.createElement("img");
   img4.classList.add("img-4");
   //
   const itemDesc4 = document.createElement("p");
   itemDesc4.classList.add("menu-p");
-  itemDesc4.textContent = `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  Pellentesque placerat, tellus sit amet`;
+  itemDesc4.textContent = `Our award-winning cake, made with our much coveted secret recipe. We promise, you won't be  disappointed.`;
   const itemPrice4 = document.createElement("menu-price");
   itemPrice4.classList.add("menu-price");
   itemPrice4.textContent = "$16";

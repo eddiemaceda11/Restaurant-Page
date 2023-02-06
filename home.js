@@ -39,10 +39,10 @@ const homePageContent = () => {
 
   const h2 = document.createElement("h2");
   h2.classList.add("cursive-text");
-  h2.textContent = "Ven a saboriar";
+  h2.textContent = "Come and Enjoy";
   const h1 = document.createElement("big-text");
   h1.classList.add("big-text");
-  h1.textContent = "Nuestro Pan Dulce";
+  h1.textContent = "Our Sweet Pastries";
 
   contentHome.appendChild(main);
   main.appendChild(mainInner);
@@ -54,11 +54,11 @@ const homePageContent = () => {
   mainBorderLine.classList.add("border-line");
   const h4 = document.createElement("h4");
   h4.classList.add("main-subtext");
-  h4.textContent = "Tenemos Pan, Cafe, Elados, y mucho mas!";
+  h4.textContent = "We have cakes, pastries, coffee, and much more!";
   const mainButton = document.createElement("button");
   mainButton.classList.add("main-button");
-  mainButton.textContent = "Ver El Menu";
-  mainButton.textContent = "Ver El Menu";
+  mainButton.textContent = "View Menu";
+  // mainButton.textContent = "Ver El Menu";
 
   mainInner.appendChild(mainBorderLine);
   mainInner.appendChild(h4);

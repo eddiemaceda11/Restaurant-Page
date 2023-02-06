@@ -41,10 +41,10 @@ const aboutPageContent = () => {
   //
   const aboutWelcome = document.createElement("p");
   aboutWelcome.classList.add("about-welcome");
-  aboutWelcome.textContent = "Bienvenidos";
+  aboutWelcome.textContent = "Welcome";
   const ourStory = document.createElement("p");
   ourStory.classList.add("our-story");
-  ourStory.textContent = "Nuestra Historia";
+  ourStory.textContent = "Our Story";
   const aboutBorder = document.createElement("div");
   aboutBorder.classList.add("about-border");
   //
@@ -55,13 +55,7 @@ const aboutPageContent = () => {
   //
   const ourStoryText = document.createElement("p");
   ourStoryText.classList.add("our-story-text");
-  ourStoryText.textContent = `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  Pellentesque placerat, tellus sit amet ultrices porttitor, ex ex
-  aliquet purus, pellentesque rhoncus felis ipsum nec purus. Donec id
-  enim in risus pellentesque blandit. Proin sed nibh nec arcu mollis
-  rhoncus in sit amet augue. Suspendisse magna nisl, eleifend non
-  tempor et, luctus id quam. Nulla bibendum vulputate ante, non
-  malesuada eros lobortis euismod`;
+  ourStoryText.textContent = `We are a family owned Pastry shop, with a lifelong passion for creating sweet delicassies, home-brewed coffee, and elegant cakes of all shapes and sizes. Our store has been around since 1947, and was founded by my great-grandmother, who through hard work and dedication has passed on her legacy, and help shaped us into the world-renowned, award-winning shop of today. We hope you come give us a try - we promise you won't regret it!`;
 
   aboutMainSection.appendChild(aboutContainer);
   aboutContainer.appendChild(aboutSection);
