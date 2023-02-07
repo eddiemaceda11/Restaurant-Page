@@ -25,6 +25,9 @@ body {
 .content::before {
   content: "";
   backdrop-filter: brightness(40%);
+  -moz-backdrop-filter: brightness(40%);
+  -webkit-backdrop-filter: brightness(40%);
+  backdrop-filter: brightness(40%);
   position: absolute;
   inset: 0%;
   z-index: -1;
