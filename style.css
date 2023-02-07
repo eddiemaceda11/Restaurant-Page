@@ -12,16 +12,22 @@ body {
   background-size: 2100px auto;
   background-repeat: no-repeat;
   background-position: center center;
-  /* filter: brightness(40%); */
-  backdrop-filter: brightness(40%);
-  -webkit-backdrop-filter: brightness(40%);
-  -moz-backdrop-filter: brightness(40%);
+
+  position: relative;
 
   transition: background 0.2s linear;
 }
 
 .hidden {
   display: none;
+}
+
+.content::before {
+  content: "";
+  backdrop-filter: brightness(40%);
+  position: absolute;
+  inset: 0%;
+  z-index: -1;
 }
 
 #content-home,
@@ -570,3 +576,9 @@ body {
     background-size: auto;
   }
 }
+
+@media (max-width: 450px) {
+  .big-text {
+    font-size: 48px;
+  }
+} ;
