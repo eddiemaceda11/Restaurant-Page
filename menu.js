@@ -57,6 +57,7 @@ const menuPageContent = () => {
   //
   const itemName1 = document.createElement("li");
   itemName1.classList.add("menu-li");
+  itemName1.classList.add("cherry");
   itemName1.textContent = "Cherry Lover's Cake";
   //
   const img1 = document.createElement("img");
